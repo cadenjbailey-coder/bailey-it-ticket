@@ -1,0 +1,116 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+}
+form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+form button:hover {
+  background: #1d4ed8;
+}
+
+/* Admin Dashboard table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background: #f9fafb;
+  font-weight: bold;
+}
+td select {
+  padding: 5px;
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+}
+button.bg-red-500 {
+  background: #dc2626;
+}
+button.bg-red-500:hover {
+  background: #b91c1c;
+}
+button.bg-blue-500 {
+  background: #2563eb;
+}
+button.bg-blue-500:hover {
+  background: #1d4ed8;
+}
+button.bg-green-500 {
+  background: #16a34a;
+}
+button.bg-green-500:hover {
+  background: #15803d;
+}
+
+/* Modal */
+.fixed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fixed .bg-white {
+  max-width: 500px;
+  width: 90%;
+}
